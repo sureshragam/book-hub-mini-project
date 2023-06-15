@@ -1,6 +1,7 @@
 .bookHub-container {
   min-height: 100vh;
   background: #e5e5e5;
+  padding-bottom: 10px;
 }
 .bookHub-content-container {
   margin: 0;
@@ -122,6 +123,7 @@
   border-style: none;
   display: block;
   margin-left: 24px;
+  margin-bottom: 30px;
 }
 .loader {
   text-align: center;
@@ -161,7 +163,124 @@
   cursor: pointer;
 }
 /* ........Desktop....... */
-@media all and (min-width: 391px) {
+@media all and (min-width: 481px) and (max-width: 768px) {
+  .bookHub-content-container {
+    margin: 48px 100px;
+  }
+  .bookHub-content-container > .heading {
+    margin-bottom: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 64px;
+    color: #1e293b;
+  }
+  .bookHub-content-container > .para {
+    margin-bottom: 32px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .card-carousel > .link > .desktop-button {
+    position: absolute;
+    top: 30px;
+    right: 71px;
+    padding: 10px 20px;
+    height: 36px;
+    background: #0284c7;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #f8fafc;
+    border-style: none;
+    display: block;
+    cursor: pointer;
+  }
+  .bookHub-content-container > .link > .mobile-button {
+    display: none;
+  }
+  .bookHub-content-container > .card-carousel {
+    margin-top: 0px;
+    height: 424px;
+    background: #ffffff;
+    box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.08),
+      0px 1px 2px rgba(96, 97, 112, 0.16);
+    border-radius: 16px;
+    padding: 28px 71px;
+    width: 100%;
+    position: relative;
+  }
+  .card-carousel > .heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #1e293b;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 32px;
+    margin-left: 35px;
+  }
+  .slick-container {
+    width: 100% !important;
+    margin: 0;
+    width: 300px;
+  }
+  .slick-item {
+    border-radius: 4px;
+    margin-top: 0px;
+    padding: 0 10px;
+  }
+  .slick-item > .link {
+    text-decoration: none;
+  }
+
+  .slick-item > .link > .cover-pic {
+    width: 80%;
+    border-radius: 4px;
+    margin-bottom: 0px;
+    display: block;
+    margin: auto;
+    height: 224px;
+  }
+  .slick-item > .link > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #334155;
+    margin-top: 16px;
+    margin-bottom: 0px;
+  }
+  .slick-item > .link > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #475569;
+    margin-top: 4px;
+  }
+  .slick-container {
+    width: 100%;
+    margin: auto;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    color: #989898;
+  }
+}
+
+/* ........Desktop....... */
+@media all and (min-width: 769px) {
   .bookHub-content-container {
     margin: 48px 100px;
   }

@@ -92,7 +92,7 @@ class BookHub extends Component {
       slidesToScroll: 1,
       responsive: [
         {
-          breakpoint: 360,
+          breakpoint: 768,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 1,
