@@ -1,0 +1,177 @@
+.navbar {
+  width: 100%;
+  height: 56px;
+  background: #ffffff;
+  border: 1px solid #e4e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+.navbar > .link > .logo {
+  width: 92px;
+  height: 24px;
+}
+.navbar-options {
+  display: none;
+}
+
+.navbar > .menu-button {
+  background: #475569;
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+}
+.navbar > .logout-button {
+  display: none;
+}
+/* ...........ipads and tablets........ */
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+  .navbar {
+    width: 100%;
+    height: 89px;
+    background: #ffffff;
+    border: 1px solid #e4e7eb;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+  }
+  .navbar > .link > .logo {
+    width: 133px;
+    height: 41px;
+  }
+  .navbar-options {
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-left: auto;
+  }
+  .navbar-options > li {
+    list-style-type: none;
+  }
+
+  li > .inActive-button {
+    text-decoration: none;
+    color: #64748b;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+  }
+  li > .active-button {
+    color: #0284c7;
+    text-decoration: none;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+  }
+  .navbar > .logout-button {
+    padding: 8px 16px;
+    width: 73px;
+    height: 32px;
+    background: #0284c7;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #f8fafc;
+    outline: none;
+    border-style: none;
+    margin-left: 32px;
+    cursor: pointer;
+    display: block;
+  }
+  .navbar > .menu-button {
+    display: none;
+  }
+}
+/* ...........Desktop........ */
+
+@media all and (min-width: 769px) {
+  .navbar {
+    width: 100%;
+    height: 89px;
+    background: #ffffff;
+    border: 1px solid #e4e7eb;
+    display: flex;
+    align-items: center;
+    padding: 0 150px;
+  }
+  .navbar > .link > .logo {
+    width: 133px;
+    height: 41px;
+  }
+  .navbar-options {
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-left: auto;
+  }
+  .navbar-options > li {
+    list-style-type: none;
+  }
+
+  li > .inActive-button {
+    text-decoration: none;
+    color: #64748b;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+  }
+  li > .active-button {
+    color: #0284c7;
+    text-decoration: none;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+  }
+  .navbar > .logout-button {
+    padding: 8px 16px;
+    width: 73px;
+    height: 32px;
+    background: #0284c7;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #f8fafc;
+    outline: none;
+    border-style: none;
+    margin-left: 32px;
+    cursor: pointer;
+    display: block;
+  }
+  .navbar > .menu-button {
+    display: none;
+  }
+}

@@ -1,0 +1,213 @@
+.login-container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container {
+  width: 216px;
+  height: 216px;
+  display: block;
+  margin-top: 32px;
+  margin-bottom: 25px;
+}
+
+.image-container > .desktop-image {
+  display: none;
+}
+
+.image-container > .mobile-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto;
+}
+
+.form-container {
+  width: 100%;
+  height: 100%;
+  padding-left: 24px;
+  margin-top: 16px;
+}
+
+.form-container > img {
+  width: 104px;
+  height: 28px;
+  margin: auto;
+  display: block;
+  margin-bottom: 35px;
+}
+
+.form-container > label {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5a7184;
+  display: block;
+  width: 94px;
+  height: 19px;
+  margin-bottom: 12px;
+}
+.form-container > input {
+  background: #ffffff;
+  border: 1px solid #c3cad9;
+  border-radius: 8px;
+  width: 312px;
+  height: 56px;
+  display: block;
+  margin-bottom: 19px;
+  padding-left: 24px;
+  padding-top: 18px;
+  padding-bottom: 19px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #183b56;
+}
+.form-container > button {
+  background: #0284c7;
+  border-radius: 8px;
+  width: 312px;
+  height: 40px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  text-align: center;
+  color: #ffffff;
+  outline: none;
+  border-style: none;
+  cursor: pointer;
+}
+.form-container > .error-msg {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ef4444;
+}
+
+/* .............desktop............. */
+@media screen and (min-width: 361px) {
+  .login-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 72px;
+    background: #e5e5e5;
+  }
+}
+@media screen and (min-width: 361px) {
+  .image-container {
+    height: 100%;
+    width: 780px;
+    background: #c4c4c4;
+    display: block;
+  }
+}
+@media all and (min-width: 361px) {
+  .image-container > .desktop-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+}
+@media all and (min-width: 361px) {
+  .image-container > .mobile-image {
+    display: none;
+  }
+}
+@media screen and (min-width: 361px) {
+  .form-container {
+    background: #ffffff;
+    width: 499px;
+    height: 484px;
+    padding-left: 69px;
+    padding-right: 70px;
+  }
+}
+@media screen and (min-width: 361px) {
+  .form-container > img {
+    width: 141px;
+    height: 48px;
+    margin: auto;
+    display: block;
+    margin-top: 48px;
+    margin-bottom: 51px;
+  }
+}
+@media screen and (min-width: 361px) {
+  .form-container > label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5a7184;
+    display: block;
+    width: 88px;
+    height: 19px;
+    margin-bottom: 12px;
+  }
+}
+@media screen and (min-width: 361px) {
+  .form-container > input {
+    background: #ffffff;
+    border: 1px solid #c3cad9;
+    border-radius: 8px;
+    width: 360px;
+    height: 56px;
+    display: block;
+    margin-bottom: 27px;
+    padding-left: 20px;
+    padding-top: 18px;
+    padding-bottom: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #183b56;
+  }
+}
+
+@media all and (min-width: 361px) {
+  .form-container > button {
+    background: #0284c7;
+    border-radius: 8px;
+    width: 360px;
+    height: 56px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+    color: #ffffff;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+  }
+}
+
+@media all and (min-width: 361px) {
+  .form-container > .error-msg {
+    color: #ef4444;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

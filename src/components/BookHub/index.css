@@ -1,0 +1,278 @@
+.bookHub-container {
+  min-height: 100vh;
+  background: #e5e5e5;
+}
+.bookHub-content-container {
+  margin: 0;
+}
+
+.bookHub-content-container > .heading {
+  margin-top: 24px;
+  padding-left: 24px;
+  margin-bottom: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 64px;
+  color: #1e293b;
+  font-size: 20px;
+  line-height: 32px;
+}
+.bookHub-content-container > .para {
+  margin-top: 0px;
+  padding-left: 24px;
+  margin-bottom: 16px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #475569;
+}
+.bookHub-content-container > .card-carousel {
+  margin-top: 16px;
+  background: #ffffff;
+  box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.08),
+    0px 1px 2px rgba(96, 97, 112, 0.16);
+  padding: 16px 0px;
+  width: 100%;
+}
+
+.card-carousel > .heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 32px;
+  margin-left: 24px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.slick-container {
+  width: 80% !important;
+}
+.slick-item {
+  border-radius: 4px;
+  margin-top: 0px;
+  padding: 0 10px;
+}
+.slick-item > .link {
+  text-decoration: none;
+}
+.slick-item > .link > .cover-pic {
+  width: 136px;
+  height: 99px;
+  border-radius: 4px;
+  margin-bottom: 0px;
+  display: block;
+  margin: auto;
+}
+.slick-item > .link > h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #334155;
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+.slick-item > .link > p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  color: #475569;
+  margin-top: 4px;
+}
+.slick-container {
+  width: 100%;
+  margin: auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #989898;
+}
+.card-carousel > .link > .desktop-button {
+  display: none;
+}
+
+.bookHub-content-container > .link {
+  text-decoration: none;
+}
+
+.bookHub-content-container > .link > .mobile-button {
+  padding: 10px 20px;
+  height: 36px;
+  background: #0284c7;
+  border-radius: 4px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #f8fafc;
+  border-style: none;
+  display: block;
+  margin-left: 24px;
+}
+.loader {
+  text-align: center;
+  margin-top: 30px;
+}
+.failure-view-container {
+  text-align: center;
+  width: 100%;
+  margin-top: 42px;
+}
+.failure-view-image {
+  width: 347px;
+  height: 170px;
+}
+.failure-view-container > p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  margin-bottom: 16px;
+}
+.failure-view-container > button {
+  padding: 8px 16px;
+  height: 32px;
+  background: #0284c7;
+  border-radius: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9.33333px;
+  line-height: 16px;
+  color: #ffffff;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+}
+/* ........Desktop....... */
+@media all and (min-width: 391px) {
+  .bookHub-content-container {
+    margin: 48px 100px;
+  }
+  .bookHub-content-container > .heading {
+    margin-bottom: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 64px;
+    color: #1e293b;
+  }
+  .bookHub-content-container > .para {
+    margin-bottom: 32px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .card-carousel > .link > .desktop-button {
+    position: absolute;
+    top: 30px;
+    right: 71px;
+    padding: 10px 20px;
+    height: 36px;
+    background: #0284c7;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #f8fafc;
+    border-style: none;
+    display: block;
+    cursor: pointer;
+  }
+  .bookHub-content-container > .link > .mobile-button {
+    display: none;
+  }
+  .bookHub-content-container > .card-carousel {
+    margin-top: 0px;
+    height: 424px;
+    background: #ffffff;
+    box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.08),
+      0px 1px 2px rgba(96, 97, 112, 0.16);
+    border-radius: 16px;
+    padding: 28px 71px;
+    width: 100%;
+    position: relative;
+  }
+  .card-carousel > .heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #1e293b;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 32px;
+    margin-left: 35px;
+  }
+  .slick-container {
+    width: 100% !important;
+    margin: 0;
+    width: 300px;
+  }
+  .slick-item {
+    border-radius: 4px;
+    margin-top: 0px;
+    padding: 0 10px;
+  }
+  .slick-item > .link {
+    text-decoration: none;
+  }
+
+  .slick-item > .link > .cover-pic {
+    width: 80%;
+    border-radius: 4px;
+    margin-bottom: 0px;
+    display: block;
+    margin: auto;
+    height: 224px;
+  }
+  .slick-item > .link > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #334155;
+    margin-top: 16px;
+    margin-bottom: 0px;
+  }
+  .slick-item > .link > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #475569;
+    margin-top: 4px;
+  }
+  .slick-container {
+    width: 100%;
+    margin: auto;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    color: #989898;
+  }
+}

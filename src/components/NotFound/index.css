@@ -1,0 +1,45 @@
+.not-found-container {
+  min-height: 100vh;
+  background-color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.not-found-container > img {
+  display: inline-block;
+  width: 30%;
+}
+.not-found-container > p {
+  color: #475569;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+}
+.not-found-container > h1 {
+  color: #334155;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.not-found-container > .link {
+  text-decoration: none;
+}
+.not-found-container > .link > button {
+  background: #0284c7;
+  border-radius: 12px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+}

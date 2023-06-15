@@ -1,0 +1,324 @@
+.books-details-container {
+  min-height: 100vh;
+  background-color: #e5e5e5;
+  padding-bottom: 20px;
+}
+.books-details-content-container {
+  width: 100%;
+  background: transparent;
+  padding: 20px;
+}
+.books-details-content-container > .success-view-container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin: auto;
+  width: 100%;
+}
+.success-view-container > div > img {
+  width: 180px;
+  height: 230px;
+  border-radius: 14px;
+}
+.success-view-container > div > div > h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #334155;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.success-view-container > div > div > p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  text-align: center;
+}
+.success-view-container > div > div > p > span {
+  color: #0284c7;
+}
+.success-view-container > div > div > .rating-container {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.success-view-container > div > div > .rating-container > p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+}
+.success-view-container > div > div > .rating-container > .star-logo {
+  color: #fbbf24;
+  font-size: 16px;
+}
+hr {
+  margin: 20px 0px;
+}
+.success-view-container > h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #334155;
+}
+.success-view-container > p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #475569;
+}
+.books-details-content-container > .failure-view-container {
+  width: 80%;
+  margin: auto;
+}
+.books-details-content-container > .failure-view-container > img {
+  width: 90%;
+  margin: auto;
+}
+
+/* ...........tabs and ipads............ */
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+  .books-details-content-container {
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 54px;
+  }
+  .books-details-content-container > .success-view-container > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin: auto;
+    width: 85%;
+  }
+  .success-view-container > div > img {
+    width: 200px;
+    height: 235px;
+    border-radius: 14px;
+  }
+  .success-view-container > div > div > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #334155;
+    margin-bottom: 0px;
+  }
+  .success-view-container > div > div > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #475569;
+    margin-bottom: 0px;
+    margin-top: 5px;
+  }
+  .success-view-container > div > div > p > span {
+    color: #0284c7;
+  }
+  .success-view-container > div > div > .rating-container {
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .success-view-container > div > div > .rating-container > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #475569;
+  }
+  hr {
+    margin: 30px 0px;
+  }
+  .success-view-container > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #334155;
+  }
+  .success-view-container > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #475569;
+  }
+}
+
+/* ........... small screens and laptops ............ */
+
+@media all and (min-width: 769px) and (max-width: 1024px) {
+  .books-details-content-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 54px;
+  }
+  .books-details-content-container > .success-view-container > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin: auto;
+    width: 80%;
+  }
+  .success-view-container > div > img {
+    width: 200px;
+    height: 235px;
+    border-radius: 14px;
+  }
+  .success-view-container > div > div > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #334155;
+    margin-bottom: 0px;
+  }
+  .success-view-container > div > div > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #475569;
+    margin-bottom: 0px;
+    margin-top: 5px;
+  }
+  .success-view-container > div > div > p > span {
+    color: #0284c7;
+  }
+  .success-view-container > div > div > .rating-container {
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .success-view-container > div > div > .rating-container > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #475569;
+  }
+  hr {
+    margin: 30px 0px;
+  }
+  .success-view-container > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #334155;
+  }
+  .success-view-container > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #475569;
+  }
+}
+/* ...........  Desktop and large screens............ */
+
+@media all and (min-width: 1025px) {
+  .books-details-content-container {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 54px;
+  }
+  .books-details-content-container > .success-view-container > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin: auto;
+    width: 60%;
+  }
+  .success-view-container > div > img {
+    width: 200px;
+    height: 235px;
+    border-radius: 14px;
+  }
+  .success-view-container > div > div > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #334155;
+    margin-bottom: 0px;
+  }
+  .success-view-container > div > div > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #475569;
+    margin-bottom: 0px;
+    margin-top: 5px;
+  }
+  .success-view-container > div > div > p > span {
+    color: #0284c7;
+  }
+  .success-view-container > div > div > .rating-container {
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .success-view-container > div > div > .rating-container > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #475569;
+  }
+  hr {
+    margin: 30px 0px;
+  }
+  .success-view-container > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #334155;
+  }
+  .success-view-container > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #475569;
+  }
+}
